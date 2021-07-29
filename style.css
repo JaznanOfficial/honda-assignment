@@ -1,21 +1,30 @@
-*{
-    font-family: 'Ubuntu', sans-serif;
+* {
+    font-family: "Ubuntu", sans-serif;
     margin: 0;
     padding: 0;
 }
 
-header{
+header {
     background-color: #264653;
 }
 
-.header-btn{
-    background-color:#E76F51;
+.header-btn {
+    background-color: #e76f51;
 }
 
-.best-bike,.changes-color{
-    color: #E76F51;
+.best-bike,
+.changes-color {
+    color: #e76f51;
 }
 
-.grayscale-img{
+.grayscale-img {
     filter: grayscale(100%);
+}
+
+.bonus-section-img {
+    transition: 0.3s;
+}
+
+.bonus-section-img:hover {
+    transform: translateY(-10px);
 }
