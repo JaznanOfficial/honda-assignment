@@ -21,6 +21,16 @@ header {
     filter: grayscale(100%);
 }
 
+
+hr{
+    
+    border: 2px solid #DC3545;
+    opacity: 1;
+    width: 60%;
+    margin:auto;
+    margin-bottom: 50px;
+}
+
 .bonus-section-img {
     transition: 0.3s;
 }
