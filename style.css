@@ -15,3 +15,7 @@ header{
 .best-bike{
     color: #E76F51;
 }
+
+.grayscale-img{
+    filter: grayscale(100%);
+}
